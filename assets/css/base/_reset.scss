@@ -108,3 +108,8 @@ dd {
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
+
+a {
+  color: $body-color;
+  text-decoration: none;
+}
