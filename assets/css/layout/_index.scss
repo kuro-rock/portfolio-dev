@@ -1,0 +1,28 @@
+.l-wrap {
+    display: grid;
+    grid-template: 4rem 1fr 2rem / 1fr;
+    min-height: 100vh;
+}
+
+.l-header {
+    padding: 0 1rem;
+    background: #fefefe;
+    display: flex;
+    align-items: center;
+    .header-inner {
+        h1 {
+            font-size: 1.5rem;
+            letter-spacing: 0.1em;
+        }
+    }
+}
+
+.l-main {
+    padding: 1rem;
+}
+
+.l-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
