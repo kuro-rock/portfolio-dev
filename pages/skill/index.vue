@@ -83,7 +83,7 @@
         </p>
         <div class="bl-description">
           <dl>
-            <dt>VCS/パッケージ管理/ビルド/その他</dt>
+            <dt>VCS/パッケージ管理/その他</dt>
             <dd>Git/Github</dd>
             <dd>Node.js</dd>
             <dd>npm</dd>
@@ -91,7 +91,7 @@
             <dd>GoogleTagManager</dd>
           </dl>
           <dl>
-            <dt>プロジェクト管理・コミュニケーション</dt>
+            <dt>プロジェクト管理</dt>
             <dd>G Suit</dd>
             <dd>Backlog</dd>
             <dd>Jira</dd>
