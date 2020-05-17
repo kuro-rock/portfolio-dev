@@ -31,6 +31,15 @@
     & + .bl-section {
         margin-top: 4rem;
     }
+    &-text {
+        margin-bottom: 2rem;
+    }
+}
+
+.bl-section-narrow {
+    & + .bl-section-narrow {
+        margin-top: 2rem;
+    }
 }
 
 .bl-hero {
