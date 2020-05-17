@@ -1,0 +1,41 @@
+.bl-top {
+    @include media-wide() {
+        display: flex;
+        flex-direction: row-reverse;
+        .bl-hero {
+            flex: 1;
+        }
+        .bl-article {
+            padding-top: 8rem;
+        }
+    }
+}
+
+.bl-article {
+    max-width: 48rem;
+}
+
+.bl-section {
+    p {
+        line-height: 2;
+    }
+    footer {
+        padding: 1rem 0;
+    }
+    & + .bl-section {
+        margin-top: 4rem;
+    }
+}
+
+.bl-hero {
+    &-img {
+        min-width: 16rem;
+        max-width: 100%;
+        transform: translate(1rem, -1rem);
+        transition: all .25s;
+        opacity: 0.5;
+        @include media-wide() {
+            transform: translate(1rem, -80px);
+        }
+    }
+}
