@@ -39,3 +39,28 @@
         }
     }
 }
+
+.bl-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @include media-wide() {
+        flex-wrap: nowrap;
+    }
+    &-img {
+        width: 50vw;
+        img {
+            width: 100%;
+        }
+        @include media-wide() {
+            width: 25vw;
+            margin-right: 2rem;
+        }
+    }
+    &-body {
+        padding: 0 1rem;
+        @include media-wide() {
+            flex: 1;
+        }
+    }
+}
