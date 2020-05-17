@@ -64,7 +64,6 @@
         }
     }
     &-body {
-        padding: 0 1rem;
         @include media-wide() {
             flex: 1;
         }
@@ -72,13 +71,17 @@
 }
 
 .bl-description {
-    display: flex;
-    justify-content: space-between;
+    @include media-wide() {
+        display: flex;
+        justify-content: space-between;
+    }
     padding: 1rem;
     dl {
         width: 100%;
+        margin-bottom: 2rem;
     }
     dt {
+        line-height: 2;
         font-weight: bold;
     }
 }
