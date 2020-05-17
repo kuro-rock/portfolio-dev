@@ -1,0 +1,17 @@
+.el-link-more {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 2px solid $color-primary;
+    border-radius: 0.5em;
+    transition: .25s;
+    color: $color-primary;
+    &:hover {
+        background: $color-primary;
+        color: #fff;
+    }
+}
+
+.el-heading2 {
+    padding-bottom: 10px;
+    border-bottom: 4px solid $color-primary;
+}
