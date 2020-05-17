@@ -1,7 +1,7 @@
 <template>
   <footer class="l-footer">
     <div class="footer-inner">
-      <small>&copy; 2020 sparking.world</small>
+      <small>&copy; 2020 Kunihiro Kuroda</small>
     </div>
   </footer>
 </template>
