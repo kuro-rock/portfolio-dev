@@ -12,7 +12,13 @@
 }
 
 .bl-article {
-    max-width: 48rem;
+    max-width: 80vw;
+    & > p {
+        line-height: 2;
+    }
+    &-text {
+        padding-bottom: 4rem;
+    }
 }
 
 .bl-section {
@@ -62,5 +68,17 @@
         @include media-wide() {
             flex: 1;
         }
+    }
+}
+
+.bl-description {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    dl {
+        width: 100%;
+    }
+    dt {
+        font-weight: bold;
     }
 }
